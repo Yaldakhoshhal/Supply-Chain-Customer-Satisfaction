@@ -57,3 +57,8 @@ This was a team project (3 members). I contributed to:
 - MLflow (experiment tracking)
 - SHAP (model explainability)
 - Jupyter Notebook
+  
+## Additional Resources
+
+- Business Report (project context and impact)
+- Modeling Report (technical details and experiments)
