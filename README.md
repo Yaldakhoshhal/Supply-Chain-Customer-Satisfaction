@@ -1,6 +1,6 @@
 # Customer Satisfaction Prediction from Review Text
 
-This project focuses on predicting customer satisfaction based on large-scale review data using machine learning techniques.
+End-to-end machine learning pipeline on 2.1M+ customer reviews, combining NLP, feature engineering, and model evaluation to generate actionable business insights.
 
 ## Project Overview
 
@@ -20,8 +20,9 @@ This project focuses on predicting customer satisfaction based on large-scale re
 
 ## Modeling Approach
 
-- Text vectorization using **TF-IDF**
+- Text vectorization using TF-IDF
 - Additional feature engineering from review metadata
+
 Tested multiple modeling approaches:
 - Classical models (TF-IDF + Logistic Regression, SVM)
 - Embedding-based approaches (Word2Vec, FastText)
@@ -57,7 +58,7 @@ This was a team project (3 members). I contributed to:
 - MLflow (experiment tracking and model management)
 - SHAP (model explainability)
 - Jupyter Notebook
-  
+
 ## Additional Resources
 
 - **Business Report** – full business context, use cases, and impact analysis  
