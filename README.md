@@ -22,10 +22,10 @@ This project focuses on predicting customer satisfaction based on large-scale re
 
 - Text vectorization using **TF-IDF**
 - Additional feature engineering from review metadata
-- Tested multiple approaches:
-  - Classical models (Logistic Regression)
-  - Embedding-based approaches
-  - Transformer-based approaches (conceptual)
+Tested multiple modeling approaches:
+- Classical models (TF-IDF + Logistic Regression, SVM)
+- Embedding-based approaches (Word2Vec, FastText)
+- Transformer-based approaches (not fully implemented due to computational constraints)
 
 ## Results
 
@@ -54,12 +54,11 @@ This was a team project (3 members). I contributed to:
 
 - Python (pandas, NumPy, scikit-learn)
 - NLP techniques (TF-IDF, text preprocessing)
-- MLflow (experiment tracking)
+- MLflow (experiment tracking and model management)
 - SHAP (model explainability)
 - Jupyter Notebook
-- MLflow (experiment tracking and model management)
   
 ## Additional Resources
 
-- Business Report (project context and impact)
-- Modeling Report (technical details and experiments)
+- **Business Report** – full business context, use cases, and impact analysis  
+- **Modeling Report** – detailed ML pipeline, experiments, and model comparison  
